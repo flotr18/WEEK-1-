@@ -1,9 +1,16 @@
-#title {
-    text-align: center;
-
-
+* {
+    font-family: Roboto,serif;
 }
 
+
+
 body {
-    background-color: #4C6A92;
+    background-color: #252525;
+}
+
+#title {
+    text-align: center;
+    color: #CD3333;
+
+
 }
