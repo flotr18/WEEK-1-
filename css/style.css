@@ -14,3 +14,15 @@ body {
 
 
 }
+
+#intro {
+    text-align: center;
+    font-size: 28px;
+    display: block;
+    margin-top: 5%;
+}
+
+#obiwan_gif {
+    display: block;
+    margin : 5% auto 0 auto;
+}
