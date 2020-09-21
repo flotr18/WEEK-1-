@@ -57,3 +57,69 @@ a {
     text-decoration: none;
     color: #F0FFFF;
 }
+
+
+#about_title {
+    color: #F0FFFF;
+    text-align: center;
+    display: block;
+    margin-top: 5%;
+    text-decoration: underline;
+    text-decoration-color: #FF9900;
+    text-decoration-width: 50px;
+
+}
+
+#IdDetails {
+    color: #F0FFFF;
+
+}
+#id_part {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-top: 5%;
+    justify-items: center;
+
+
+}
+
+
+
+
+
+#about_hobbies {
+    color: #F0FFFF;
+    text-align: center;
+    display: block;
+    margin-top: 10%;
+    text-decoration: underline;
+    text-decoration-color: #FF9900;
+    text-decoration-width: 50px;
+}
+
+#cardContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+
+}
+
+.card-item {
+    background-color: #FF9900;
+    text-align: center;
+    height: 120px;
+    line-height: 120px;
+    font-weight: bold;
+
+
+}
+
+
+
+

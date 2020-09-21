@@ -8,6 +8,31 @@
 </head>
 <body>
 
+<div id="AboutContainer">
+    <h2 id="about_title">{{ id }}</h2>
+
+    <div id="id_part">
+        <div v-for="info in infos" :key="info" id="IdDetails">
+            {{ info }}
+
+        </div>
+    </div>
+
+    <h2 id="about_hobbies">{{ hobbies }}</h2>
+
+    <div  id="card">
+        <div id="cardContainer">
+            <div class="card-item" v-for="card in cards" :key="card">
+                {{ card }}
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
 
 
 <script src="js/script.js" rel="script" type="text/javascript"></script>
