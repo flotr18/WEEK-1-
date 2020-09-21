@@ -4,19 +4,29 @@
     <meta charset="UTF-8">
     <title>Main Page</title>
     <link href="css/style.css" media="all" type="text/css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
 </head>
 <body>
 
-<h1 id="title">My Website</h1>
+<div id="main">
 
-<div id="intro">
-    Hello There !
+
+
+<h1 id="title">{{ title }}</h1>
+
+
+
+<img :src="gif" alt="obiwan" id="obiwan_gif">
+
+
+    <div id="intro">
+        Hello, my name is Florent, I am a 3rd year student in IIM, located in La Defense, the main european financial district.
+        Welcome to my website, you'll find some informations about my studies & interests and how to contact me
+    </div>
+
+
 </div>
-
-<img src="https://media2.giphy.com/media/Nx0rz3jtxtEre/giphy.gif?cid=ecf05e47t6e77t8jj4gjcooi308r6g3wp714zz2m0jnwud6b&rid=giphy.gif" alt="obiwan" id="obiwan_gif">
-
-
-
 <script src="js/script.js" rel="script" type="text/javascript"></script>
 </body>
 </html>
