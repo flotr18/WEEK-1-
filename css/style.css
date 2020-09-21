@@ -53,3 +53,7 @@ nav {
     border-color: #190061;
 }
 
+a {
+    text-decoration: none;
+    color: #F0FFFF;
+}
