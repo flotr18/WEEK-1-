@@ -16,7 +16,6 @@ body {
 }
 
 
-
 #obiwan_gif {
     display: block;
     margin : 5% auto 0 auto;
@@ -27,5 +26,10 @@ body {
     display: block;
     margin-top: 5%;
     font-size: 18px;
+}
+
+nav {
+    display: block;
+    margin : 0 auto 0 auto;
 }
 
