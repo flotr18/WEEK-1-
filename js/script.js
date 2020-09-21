@@ -36,3 +36,21 @@ let about = new Vue ({
 
 });
 
+let contact = new Vue ({
+    el : '#ContainerContact'
+});
+
+Vue.component('contact-info', {
+    data : function () {
+        return {
+            name : 'Mr Florent Trouillet',
+            study : 'IIM-Dorset 3Y student',
+            id : 'ID : 22852',
+            mail : 'florent.trouillet@edu.devinci.fr'
+
+        }
+
+    },
+    template : '<p> {{ name }}<br>{{ study }}<br>{{id }}<br>{{ mail }}'
+})
+
