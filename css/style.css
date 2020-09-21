@@ -10,7 +10,7 @@ body {
 
 #title {
     text-align: center;
-    color: #CD3333;
+    color: #3500D3;
 
 
 }
@@ -39,5 +39,16 @@ nav {
     display: block;
     margin-top: 5%;
     width: 10%;
+    background-color: #3500D3;
+    color: white;
+    border-style: solid;
+    border-color: #3500D3;
+}
+
+.nav_buttons:hover {
+    cursor: pointer;
+    transition: 0.5s ease;
+    background-color: #190061;
+    border-color: #190061;
 }
 
