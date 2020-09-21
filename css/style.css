@@ -29,7 +29,15 @@ body {
 }
 
 nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_buttons {
+    margin-left: 10px;
     display: block;
-    margin : 0 auto 0 auto;
+    margin-top: 5%;
+    width: 10%;
 }
 
