@@ -26,6 +26,7 @@ body {
     display: block;
     margin-top: 5%;
     font-size: 18px;
+    color: #F0FFFF;
 }
 
 nav {
@@ -40,7 +41,7 @@ nav {
     margin-top: 5%;
     width: 10%;
     background-color: #3500D3;
-    color: white;
+    color: #F0FFFF;
     border-style: solid;
     border-color: #3500D3;
 }
