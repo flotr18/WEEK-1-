@@ -36,9 +36,7 @@ let about = new Vue ({
 
 });
 
-let contact = new Vue ({
-    el : '#ContainerContact'
-});
+
 
 Vue.component('contact-info', {
     data : function () {
@@ -51,6 +49,10 @@ Vue.component('contact-info', {
         }
 
     },
-    template : '<p> {{ name }}<br>{{ study }}<br>{{id }}<br>{{ mail }}'
-})
+    template : '<div> {{ name }}<br>{{ study }}<br>{{id }}<br>{{ mail }}</div>'
+});
+
+let contact = new Vue ({
+    el : '#ContainerContact'
+});
 
