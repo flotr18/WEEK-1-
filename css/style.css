@@ -124,6 +124,10 @@ a {
     text-align: center;
     margin-top: 5%;
     color: #F0FFFF;
+    text-decoration : underline;
+    text-decoration-width: 20px;
+    text-decoration-color: #70964B
+;
 }
 
 #info_contact {

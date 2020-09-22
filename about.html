@@ -11,6 +11,13 @@
 <div id="AboutContainer">
     <h2 id="about_title">{{ id }}</h2>
 
+    <nav>
+        <button class="nav_buttons"><a href="index.html">HOME</a></button>
+        <button class="nav_buttons"><a href="about.html">ABOUT ME</a></button>
+        <button class="nav_buttons"><a href="contact.html">CONTACT</a></button>
+
+    </nav>
+
     <div id="id_part">
         <div v-for="info in infos" :key="info" id="IdDetails">
             {{ info }}
